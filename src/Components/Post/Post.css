@@ -1,0 +1,106 @@
+.subcontainer{
+    height: 40px;
+    align-items: center;
+    text-align: justify;
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    text-align: justify;
+}
+.postheaderimage{
+    object-fit: contain;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+.postheader{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.ParentDiv{
+    width: 90vw;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 40px 10px 10px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    cursor: pointer;
+    display: flex;
+}
+.explainmore{
+    text-decoration: none;
+    display: block;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    color: #012b72;
+    border-radius: 10px;
+    transition: all .5s ease-in-out;
+    padding-left: 550px;
+    
+}
+.right:hover{
+    transform: scale(1.1);
+}
+.cardcontainer{
+    overflow: scroll;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+.postcard{
+    border: 1px solid #eee;
+    background-color: #fff;
+    min-width: 270px;
+    max-width: 300px;
+    max-height: 400px;
+    width: 270px;
+    border-radius: 5px;
+    padding: 0;
+    display: flex;
+    
+    flex-direction: column;
+    margin: 8px;
+    overflow: scroll;
+    overflow: hidden;
+}
+.cardimage{
+    margin: 0;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+.carddetails{
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    flex: 1 1 auto;
+    padding: 3rem 1rem;
+}
+.cardtitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cardlocation{
+    display: flex;
+}
+.explore{
+    font-weight: 600;
+    text-align: right;
+    cursor: pointer;
+    text-decoration: none
+}
+.postcard:hover{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 5%), 0 5px 5px 0 rgb(0 0 0 / 5%);
+}

@@ -1,0 +1,59 @@
+.headerParentDiv {
+    padding: 10px;
+    background-color: whitesmoke;
+    position: fixed;
+    width: 100vw;
+    z-index: 999;
+  }
+  .headerChildDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .brandname{
+    display: -webkit-flex;
+    display: flex;
+    
+    flex-direction: row;
+    
+    align-items: center;
+    
+    justify-content: space-between;
+  }
+  .menulogo{
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+  .logoImage{
+    min-width: 160px;
+    max-width: 160px;
+    margin-left: 10px;
+    margin-right: 10px;
+    object-fit: contain;
+  }
+  .headerRight{
+    display: -webkit-flex;
+    display: flex;
+    margin-right: 26px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 5px;
+
+  }
+  .post{
+    display: flex;
+    flex-direction: row;
+  }
+  .nearMe{
+    display: flex;
+    flex-direction: row;
+  }
+  .login{
+    display: flex;
+    flex-direction: row;
+  }
+  p{
+    color: blue;
+  }
